@@ -1,0 +1,26 @@
+{
+  "name": "slack-currency",
+  "description": "slack command for converting currency",
+  "repository": "https://github.com/matiassingers/slack-currency",
+  "website": "https://github.com/matiassingers/slack-currency",
+  "logo": "https://slack.global.ssl.fastly.net/22690/img/landing_slack_hash_wordmark_logo.png",
+  "keywords": ["slack", "currency", "conversion", "command", "bot", "chat"],
+  "env": {
+    "SLACK_HOOK_URL": {
+      "description": "Slack incoming WebHook URL",
+      "required": true
+    },
+    "SLACK_TOKEN": {
+      "description": "Additional security: Slack slash command token for verification that the request came from your Slack team (not required)"
+    },
+    "USERNAME": {
+      "description": "Username to use when replying with the conversion result (default: dorrars)"
+    },
+    "EMOJI": {
+      "description": "Emoji icon to use when replying with the conversion result (default: :moneybag:)"
+    },
+    "DEFAULT_CURRENCY": {
+      "description": "A default currency to convert to if no second currency is specified"
+    }
+  }
+}
