@@ -26,8 +26,8 @@ Alternatively, you can deploy your own copy with one click using this button:
 
 
 ## Slack setup
-1. Create a Slack [incoming WebHook][slack-webhook] integration *(settings aren't important, note the WebHook URL and token)*
-2. Create a Slack [slash command][slack-command] integration *(`/currency` is recommended)*
+1. Create a Slack [incoming WebHook][slack-webhook] integration *(settings aren't important, note the WebHook URL)*
+2. Create a Slack [slash command][slack-command] integration *(`/currency` is recommended, optionally note the token for security)*
 3. Deploy your copy of `slack-currency`, and enter URL endpoint in the Slack [slash command][slack-command]
 4. *Optional: Add autocomplete help text to Slack command:*
   ![slack command autocomplete help](slack-autocomplete.png)
