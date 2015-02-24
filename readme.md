@@ -11,7 +11,7 @@ $ npm install
 $ npm start
 ```
 
-Your local copy should now be running at [`localhost:1337`].
+Your local copy should now be running at [`localhost:1337`](http://localhost:1337).
 
 ## Deploying to Heroku
 ```sh
