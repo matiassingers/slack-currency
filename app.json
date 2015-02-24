@@ -11,7 +11,7 @@
       "required": true
     },
     "SLACK_TOKEN": {
-      "description": "Additional security: Slack slash command token for verification that the request came from your Slack team (not required)"
+      "description": "Additional security step: Slack slash command token for verification that the request came from your Slack team (not required)"
     },
     "USERNAME": {
       "description": "Username to use when replying with the conversion result (default: dorrars)"
@@ -20,7 +20,7 @@
       "description": "Emoji icon to use when replying with the conversion result (default: :moneybag:)"
     },
     "DEFAULT_CURRENCY": {
-      "description": "A default currency to convert to if no second currency is specified"
+      "description": "Default currency to convert to if no second currency is specified"
     }
   }
 }

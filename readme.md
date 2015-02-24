@@ -23,6 +23,19 @@ Alternatively, you can deploy your own copy with one click using this button:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/matiassingers/slack-currency)
 
 
+## Slack setup
+1. Create a Slack [incoming WebHook](https://my.slack.com/services/new/incoming-webhook/) integration *(settings aren't important, note the WebHook URL and token)*
+2. Create a Slack [slash command](https://my.slack.com/services/new/slash-commands) integration *(`/currency` is recommended)*
+
+
+## Settings
+- `SLACK_HOOK_URL` - *Slack [incoming WebHook](https://my.slack.com/services/new/incoming-webhook/) URL*
+- `SLACK_TOKEN` - *Additional security step: Slack slash command token for verification that the request came from your Slack team (not required)*
+- `USERNAME` - *Username to use when replying with the conversion result (default: **dorrars**)*
+- `EMOJI` - *Emoji icon to use when replying with the conversion result (default: :moneybag:)*
+- `DEFAULT_CURRENCY` - *Default currency to convert to if no second currency is specified*
+
+
 ## License
 
 MIT © [Matias Singers](http://mts.io)
