@@ -37,10 +37,10 @@ Alternatively, you can deploy your own copy with one click using this button:
 The following environment variables needs to be set for the command to work, if you use the Heroku Button above it'll ask for these automatically.
 
 - `SLACK_HOOK_URL` - *Slack [incoming WebHook][slack-webhook] URL*
-- `SLACK_TOKEN` - *Additional security step: Slack [slash command][slack-command] token for verification that the request came from your Slack team (not required)*
 - `USERNAME` - *Username to use when replying with the conversion result (default: dorrars)*
 - `EMOJI` - *Emoji icon to use when replying with the conversion result (default: :moneybag:)*
 - `DEFAULT_CURRENCY` - *Default currency to convert to if no second currency is specified (default: DKK)*
+- `SLACK_TOKEN` - *Additional security step: Slack [slash command][slack-command] token for verification that the request came from your Slack team (not required)*
 
 
 ## License

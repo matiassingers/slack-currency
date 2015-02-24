@@ -10,20 +10,20 @@
       "description": "Slack incoming WebHook URL",
       "required": true
     },
-    "SLACK_TOKEN": {
-      "description": "Additional security step: Slack slash command token for verification that the request came from your Slack team (not required)",
-      "required": false
-    },
     "USERNAME": {
-      "description": "Username to use when replying with the conversion result (default: dorrars)",
+      "description": "Optional: Username to use when replying with the conversion result (default: dorrars)",
       "required": false
     },
     "EMOJI": {
-      "description": "Emoji icon to use when replying with the conversion result (default: :moneybag:)",
+      "description": "Optional: Emoji icon to use when replying with the conversion result (default: :moneybag:)",
       "required": false
     },
     "DEFAULT_CURRENCY": {
-      "description": "Default currency to convert to if no second currency is specified (default: DKK)",
+      "description": "Optional: Default currency to convert to if no second currency is specified (default: DKK)",
+      "required": false
+    },
+    "SLACK_TOKEN": {
+      "description": "Optional: Additional security step: Slack slash command token for verification that the request came from your Slack team",
       "required": false
     }
   }
