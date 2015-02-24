@@ -26,7 +26,7 @@ http.createServer(function (req, res) {
 
     convert(body);
   });
-}).listen(process.env.PORT || 1337, '127.0.0.1');
+}).listen(process.env.PORT || 1337);
 
 function convert(body){
   if(config.token && config.token !== body.token){
