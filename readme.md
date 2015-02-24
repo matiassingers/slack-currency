@@ -1,4 +1,4 @@
-# slack-currency [![Build Status](http://img.shields.io/travis/matiassingers/slack-currency.svg?style=flat-square)](https://travis-ci.org/matiassingers/slack-currency) [![Dependency Status](http://img.shields.io/gemnasium/matiassingers/slack-currency.svg?style=flat-square)](https://gemnasium.com/matiassingers/slack-currency)
+# slack-currency [![Dependency Status](http://img.shields.io/gemnasium/matiassingers/slack-currency.svg?style=flat-square)](https://gemnasium.com/matiassingers/slack-currency)
 > slack command for converting currency
 
 ![slack-currency screenshot example](screenshot.png)

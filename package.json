@@ -4,8 +4,7 @@
   "description": "slack command for converting currency",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "mocha"
+    "start": "node index.js"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -27,8 +26,5 @@
     "currency": "0.1.2",
     "querystring": "0.2.0",
     "slack-notify": "0.1.4"
-  },
-  "devDependencies": {
-    "mocha": "2.1.0"
   }
 }
