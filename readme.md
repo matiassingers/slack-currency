@@ -44,6 +44,11 @@ The following environment variables needs to be set for the command to work, if 
 - `SLACK_TOKEN` - *Additional security step: Slack [slash command][slack-command] token for verification that the request came from your Slack team (not required)*
 
 
+## Related
+- [`generator-slack-command`](https://github.com/matiassingers/generator-slack-command)
+- [`slack-movie`](https://github.com/matiassingers/slack-movie)
+
+
 ## License
 
 MIT © [Matias Singers](http://mts.io)
