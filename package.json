@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "mocha",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -30,6 +31,7 @@
   },
   "devDependencies": {
     "got": "4.1.0",
+    "istanbul": "0.3.17",
     "mocha": "2.2.5",
     "proxyquire": "1.6.0",
     "sinon": "1.15.4"
