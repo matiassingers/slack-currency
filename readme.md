@@ -1,7 +1,7 @@
 # slack-currency [![Dependency Status](http://img.shields.io/gemnasium/matiassingers/slack-currency.svg?style=flat-square)](https://gemnasium.com/matiassingers/slack-currency)
 > slack command for converting currency
 
-![slack-currency screenshot example](screenshot.png)
+![slack-currency screenshot example](screenshot-slack-reply.png)
 
 
 ## Running locally
@@ -31,7 +31,7 @@ See the [Heroku documentation](https://devcenter.heroku.com/articles/config-vars
 2. Deploy your copy of `slack-currency`, and note your URL endpoint
 3. Create a Slack [slash command][slack-command] integration with default settings and use the URL endpoint from above *(`/currency` is recommended, optionally note the token for extra security)*
 4. *Optional: Add autocomplete help text to Slack command:*
-  ![slack command autocomplete help](slack-autocomplete.png)
+  ![slack command autocomplete help](screenshot-slack-autocomplete.png)
 
 
 ## Settings
