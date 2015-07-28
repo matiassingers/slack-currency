@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/matiassingers/slack-currency",
   "dependencies": {
-    "currency": "0.1.2",
+    "currency": "1.0.1",
     "querystring": "0.2.0",
     "slack-notify": "0.1.4"
   }

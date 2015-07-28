@@ -25,6 +25,10 @@
     "SLACK_TOKEN": {
       "description": "Optional: Additional security step: Slack slash command token for verification that the request came from your Slack team",
       "required": false
+    },
+    "OPENEXCHANGERATES_APP_ID": {
+      "description": "Optional: Specify a different key for openexchangerates.org in case the already provided key has been revoked.",
+      "required": false
     }
   }
 }

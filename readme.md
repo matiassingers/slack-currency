@@ -42,11 +42,13 @@ The following environment variables needs to be set for the command to work, if 
 - `EMOJI` - *Emoji icon to use when replying with the conversion result (default: :moneybag:)*
 - `DEFAULT_CURRENCY` - *Default currency to convert to if no second currency is specified (default: DKK)*
 - `SLACK_TOKEN` - *Additional security step: Slack [slash command][slack-command] token for verification that the request came from your Slack team (not required)*
+- `OPENEXCHANGERATES_APP_ID` - *Specify a different key for openexchangerates.org in case the already provided key has been revoked (not required)*
 
 
 ## Related
 - [`generator-slack-command`](https://github.com/matiassingers/generator-slack-command)
 - [`slack-movie`](https://github.com/matiassingers/slack-movie)
+- [`currency`](https://github.com/srn/currency)
 
 
 ## License
