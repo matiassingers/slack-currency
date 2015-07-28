@@ -1,4 +1,4 @@
-# slack-currency [![Dependency Status](http://img.shields.io/gemnasium/matiassingers/slack-currency.svg?style=flat-square)](https://gemnasium.com/matiassingers/slack-currency)
+# slack-currency [![Build Status][travis-badge]][travis] [![Coverage Status][coveralls-badge]][coveralls]
 > slack command for converting currency
 
 ![slack-currency screenshot example](screenshot-slack-reply.png)
@@ -57,3 +57,7 @@ MIT © [Matias Singers](http://mts.io)
 
 [slack-webhook]: https://my.slack.com/services/new/incoming-webhook/
 [slack-command]: https://my.slack.com/services/new/slash-commands
+[travis]: https://travis-ci.org/matiassingers/slack-currency
+[travis-badge]: http://img.shields.io/travis/matiassingers/slack-currency.svg?style=flat-square
+[coveralls]: https://coveralls.io/r/matiassingers/slack-currency
+[coveralls-badge]: http://img.shields.io/coveralls/matiassingers/slack-currency.svg?style=flat-square
