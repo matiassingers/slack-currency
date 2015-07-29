@@ -4,7 +4,9 @@
   "description": "slack command for converting currency",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -23,8 +25,15 @@
   },
   "homepage": "https://github.com/matiassingers/slack-currency",
   "dependencies": {
-    "currency": "0.1.2",
+    "currency": "1.0.1",
     "querystring": "0.2.0",
     "slack-notify": "0.1.4"
+  },
+  "devDependencies": {
+    "got": "4.1.0",
+    "istanbul": "0.3.17",
+    "mocha": "2.2.5",
+    "proxyquire": "1.6.0",
+    "sinon": "1.15.4"
   }
 }
