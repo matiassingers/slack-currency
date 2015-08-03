@@ -32,13 +32,15 @@ describe('server', function () {
       body: payload
     };
 
-    got.post('http://localhost:1337', opts, function (err, data, res) {
-      assert.equal(err, null);
-      assert.equal(200, res.statusCode);
-
-      done();
-    });
-  })
+    got.post('http://localhost:1337', opts)
+      .then(function (res) {
+        assert.equal(200, res.statusCode);
+      })
+      .catch(function (err) {
+        assert.equal(err, null);
+      })
+      .then(done);
+  });
 });
 
 describe('convert', function () {
